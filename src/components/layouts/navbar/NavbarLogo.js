@@ -5,6 +5,7 @@ import { FaAlignRight } from 'react-icons/fa'
 import styled from 'styled-components'
 
 import logo from '../../../images/logo.svg'
+import { styles } from '../../../utils'
 
 /**
  * functional react component for top navbar section
@@ -31,13 +32,13 @@ const Wrapper = styled.div`
   padding: 0.4rem 1rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   .toggle-icon{
     font-size: 2rem;
-    color: black;
+    color: ${ styles.colors.mainYellow };
     cursor: pointer;
   }
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     .toggle-icon{
       display: none;
     }
