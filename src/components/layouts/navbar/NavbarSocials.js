@@ -5,11 +5,10 @@ import { FaInstagram, FaTwitter, FaFacebook } from 'react-icons/fa'
 import { styles } from '../../../utils'
 
 /**
- * functional react component for ...
+ * functional react component for navbar socials button
  * @function
- * @param {*} props - props
  * @returns {JSX.Element} - react component
- * @useIn - ./
+ * @useIn - ./index.js
  */
 function FileName() {
   const [icons, setIcons] = useState([

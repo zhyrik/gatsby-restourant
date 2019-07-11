@@ -8,7 +8,7 @@ import logo from '../../../images/logo.svg'
 import { styles } from '../../../utils'
 
 /**
- * functional react component for top navbar section
+ * functional react component for top navbar logo 
  * @function
  * @param {function} handleNavbar - change navbarOpen (false || true)
  * @returns {JSX.Element} - react component
