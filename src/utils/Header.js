@@ -10,6 +10,9 @@ import defaultImg from '../images/bcg/homeBcg.jpeg'
  * @param {*} props - props
  * @returns {JSX.Element} - react component
  * @useIn - ../pages/index.js
+ * @useIn - ../pages/about.js
+ * @useIn - ../pages/menu.js
+ * @useIn - ../pages/contact.js
  */
 function HomeHeader ({ img, children }) {
   return (
