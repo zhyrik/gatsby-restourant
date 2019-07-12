@@ -17,7 +17,7 @@ function QuickInfo() {
       <Title message="some message" title="title"></Title>
       <Wrapper>
         <p className="text">
-        You can use the node createPages API to pull unstructured data directly into Gatsby sites rather than through GraphQL and source plugins. This is a great choice for small sites, while GraphQL and source plugins can help save time with more complex sites.
+        You can use the node createPages API to pull unstructured data directly into Gatsby sites rather than through GraphQL and source plugins. This is a great choice for small sites, while GraphQL and source plugins can help save time with more complex sites.Import useStaticQuery and graphql from gatsby in order to use the hook query the data.In the start of a stateless functional component, assign a variable to the value of useStaticQuery with your graphql query passed as an argument.In the JSX code returned from your component, you can reference that variable to handle the returned data.
         </p>
         <Link to="/about/" style={{textDecoration: 'none'}}>
           <SectionButton>about</SectionButton>
