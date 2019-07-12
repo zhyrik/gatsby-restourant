@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { styles } from '../utils'
-import { border } from './styles';
 
 const BannerButton = styled.button`
  display: block;
@@ -8,12 +7,17 @@ const BannerButton = styled.button`
  background: transparent;
  padding: 0.5rem 1rem;
  text-transform: uppercase;
- font-size: 1.5rem;
+ font-size: 1.2rem;
  letter-spacing: 0.5rem;
  font-weight: 700;
  ${styles.border({color: `${styles.colors.mainWhite}`})};
  margin-bottom: 1rem;
  ${styles.transition({})};
+ &:hover{
+   background: ${styles.colors.mainWhite};
+   color: ${styles.colors.mainBlack};
+   cursor: pointer;
+ }
 `
 
 export { BannerButton }
