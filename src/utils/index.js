@@ -1,7 +1,7 @@
 import * as styles from './styles'
 import { HomeHeader, PageHeader } from './Header'
 import { Baner } from './Baner'
-import { BannerButton } from './Button'
+import { BannerButton, SectionButton } from './Button'
 import { Section } from './Section'
 import Title from './Title'
 
@@ -12,5 +12,6 @@ export {
   Baner,
   BannerButton,
   Section,
-  Title
+  Title,
+  SectionButton
 }

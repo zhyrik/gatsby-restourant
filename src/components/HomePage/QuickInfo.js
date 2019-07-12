@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { Section, Title } from '../../utils'
+import { Section, Title, SectionButton } from '../../utils'
 
 /**
  * functional react component for ...
@@ -14,6 +14,7 @@ function QuickInfo({ ex }) {
   return (
     <Section>
       <Title message="some message" title="title"></Title>
+      <SectionButton>about</SectionButton>
     </Section>
   )
 }
