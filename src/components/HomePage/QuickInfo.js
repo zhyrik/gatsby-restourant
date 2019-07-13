@@ -6,10 +6,10 @@ import { Section, Title, SectionButton } from '../../utils'
 import { styles } from '../../utils'
 
 /**
- * functional react component for ...
+ * functional react component for quik section (home page)
  * @function
  * @returns {JSX.Element} - react component
- * @useIn - ./
+ * @useIn - ./pages/index.js
  */
 function QuickInfo() {
   return (
