@@ -30,6 +30,10 @@ function QuickInfo() {
 const Wrapper = styled.div`
   width: 90%;
   margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   .text{
     line-height: 2rem;
     color: ${styles.colors.mainGrey};

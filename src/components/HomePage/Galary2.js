@@ -33,7 +33,7 @@ function Galary() {
       <Wrapper>
         {data.images.edges.map(({ node }, index) => {
           return (
-            <div className={`item item-${ index+1 }`}>
+            <div className={`item item-${ index+1 }`} key={index}>
               <Img fluid={node.childImageSharp.fluid} />
               <p className="info">awesome piza</p>
             </div>
@@ -48,6 +48,9 @@ const Wrapper = styled.div`
   display: grid;
   grid-template-columns: auto;
   grid-row-gap: 1rem;
+  .gatsby-image-wrapper{
+      height: 100%;
+    }
   .item{
     position: relative;
   }
@@ -67,21 +70,18 @@ const Wrapper = styled.div`
     grid-template-columns: 1fr 1fr 1fr;
   }
   @media (min-width: 992px) {
-    .gatsby-image-wrapper{
-      height: 100%;
-    }
     grid-template-areas:
     "one one two two"
     "one one three three";
-  }
-  .item-1{
+    .item-1{
     grid-area: one;
-  }
-  .item-2{
-    grid-area: two;
-  }
-  .item-3{
-    grid-area: three;
+    }
+    .item-2{
+      grid-area: two;
+    }
+    .item-3{
+      grid-area: three;
+    }
   }
 `
 

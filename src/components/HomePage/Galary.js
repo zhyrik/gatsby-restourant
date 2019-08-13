@@ -87,15 +87,15 @@ const Wrapper = styled.div`
     grid-template-areas:
     "one one two two"
     "one one three three";
-  }
-  .item-1{
+    .item-1{
     grid-area: one;
-  }
-  .item-2{
-    grid-area: two;
-  }
-  .item-3{
-    grid-area: three;
+    }
+    .item-2{
+      grid-area: two;
+    }
+    .item-3{
+      grid-area: three;
+    }
   }
 `
 
